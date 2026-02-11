@@ -1,5 +1,7 @@
 # ImmersiveThunder - Forge Edition
 
+[![Build ImmersiveThunder Forge 1.20.1](https://github.com/bludosDevv/ImmersiveThunder-Forged/actions/workflows/build.yml/badge.svg)](https://github.com/bludosDevv/ImmersiveThunder-Forged/actions/workflows/build.yml)
+
 A **Forge port** of the popular Fabric mod that adds realistic and dynamic thunder sounds to Minecraft based on the player's distance from lightning strikes.
 
 ## 🌩️ Features
