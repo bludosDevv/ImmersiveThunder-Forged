@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "leah.leahs_immersive_thunder.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "immersivethunder.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ImmersiveThunderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

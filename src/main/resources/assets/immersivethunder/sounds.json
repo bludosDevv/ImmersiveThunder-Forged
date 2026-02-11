@@ -1,0 +1,57 @@
+{
+  "thunder_close": {
+    "subtitle": "subtitles.entity.lightning_bolt.thunder",
+    "sounds": [
+      {
+        "name": "immersivethunder:thunder_close_1",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_close_2",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_close_3",
+        "stream": false
+      }
+    ]
+  },
+  "thunder_medium": {
+    "subtitle": "subtitles.entity.lightning_bolt.thunder",
+    "sounds": [
+      {
+        "name": "immersivethunder:thunder_medium_1",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_medium_2",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_medium_3",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_medium_4",
+        "stream": false
+      }
+    ]
+  },
+  "thunder_far": {
+    "subtitle": "subtitles.entity.lightning_bolt.thunder",
+    "sounds": [
+      {
+        "name": "immersivethunder:thunder_far_1",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_far_2",
+        "stream": false
+      },
+      {
+        "name": "immersivethunder:thunder_far_3",
+        "stream": false
+      }
+    ]
+  }
+}
