@@ -1,12 +1,12 @@
-name: Build ImmersiveThunder Forge main
+name: Build ImmersiveThunder Forge 1.20.2
 
 on:
   push:
     branches:
-      - main
+      - 1.20.2
   pull_request:
     branches:
-      - main
+      - 1.20.2
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '17'
           cache: 'gradle'
       
       - name: Grant execute permission for gradlew
@@ -42,7 +42,7 @@ jobs:
       - name: Upload Forge build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ImmersiveThunder-Forge-main
+          name: ImmersiveThunder-Forge-1.20.2
           path: |
             build/libs/*.jar
             !build/libs/*-sources.jar
